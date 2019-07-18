@@ -1,0 +1,617 @@
+.container a{
+    margin-left: 0px !important;
+}
+.container{
+    padding-left: 0px !important;
+}
+body{
+    font-size: 10px;
+}
+#content:before{
+    border:0;
+}
+.deviceNotification{
+    background-color:#fff;
+    border: solid 3px #52A2CB;
+    width: 221px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    position:absolute;
+    padding:5px;
+    height:187px;
+}
+.deviceNotificationPos{
+    background-color:#fff;
+    border: solid 3px #52A2CB;
+    width: 221px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    position:absolute;
+    padding:5px;
+    height:187px;
+}
+.deviceNotificationMax{
+    background-color:#fff;
+    border: solid 3px #52A2CB;
+    width: 221px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    position:absolute;
+    padding:5px;
+    height:187px;
+}
+.patient_profile{
+    border-bottom: 2px double #52A2CB;
+    display: block;
+    float: left;
+    width: 210px;
+    padding-bottom: 5px;
+    margin-bottom:5px;
+    height: 55px;
+}
+div.userAvatar{
+    display: block;
+    float:left;
+    width: 60px;
+}
+div.userAvatar img{
+    border: solid 1px #52a2cb;
+    width: 55px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+div.patientInfo{
+    display: block;
+    float:right;
+    width:150px;
+}
+.patientName{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.patientAfliction{
+    font-size: 10px;
+    font-style: italic;
+}
+div.notifications{
+    height: 88px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+}
+div.notificationsPos{
+    height: 149px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+}
+div.notificationsMaxi{
+    height: 149px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+}
+div.notificationsMax{
+    height: 149px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    width:100%;
+}
+div.notification_details{
+    clear: both;
+    display: block;
+    margin-bottom: 5px;
+    border: solid 1px #52a2cb;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+div.toolbar{
+    border-bottom: 1px solid #52a2cb;
+    width: 100%;
+}
+label.type_notification {
+    display: block;
+    float: left;
+    margin:2px 5px;
+}
+
+label.time_notification {
+    display: block;
+    float: right;
+    margin:2px 5px;
+}
+label.avatar_notification{
+    display: block;
+    float: left;
+    margin:2px 5px 2px 5px;
+}
+label.patient_notification{
+    float: left;
+    margin: 0px 0px 2px 45px;
+    display: inherit;
+    padding: 2px;
+}
+label.patient_pos_notification{
+    float: left;
+    margin: 0px 0px 2px 12px;
+    display: inherit;
+    padding: 2px;
+}
+label.patient_pos_notification{
+    float: left;
+    margin: 0px 0px 2px 12px;
+    display: inherit;
+    padding: 2px;
+}
+div.message_notification {
+    clear: both;
+    display: block;
+    /*height: 60px;*/
+    overflow-y: auto;
+    width: 100%;
+    /*-webkit-overflow-scrolling: touch;*/
+}
+
+div.statusBar{
+    border: 2px solid #52a2cb;
+    clear: both;
+    display: block;
+    height: 18px;
+    margin-top: 5px;
+    width: 98%;
+    position: absolute;
+    bottom: 4px;
+    left: 2px;
+}
+label.roomNumber{
+    border-right: 2px solid #52a2cb;
+    display: inline;
+    float: left;
+    margin-bottom: 0;
+    padding: 0 4px;
+    width: 41%;
+    font-size:11px;
+
+}
+label.currentTime{
+    display: inline;
+    float:right;
+    margin-bottom: 0px;
+    padding: 0 4px;
+    font-size: 10px;
+}
+/* For top position */
+div.bottomFlash:after{
+    font-size:1em;
+    border-style:solid;
+    border-width: 15px 15px 0px 15px;
+    border-color: #52A2CB transparent #52A2CB transparent;
+    position: absolute;
+    content: ' ';
+    bottom: -18px;
+    left: 43%;
+}
+/*div.bottomFlash{
+    bottom: 0;
+    height: 23px;
+    left: 45%;
+    margin-bottom: -23px;
+    overflow: hidden;
+    position: absolute;
+    width: 36px;
+}
+div.bottomFlash:after{
+    background: none repeat scroll 0 0 #fff;
+    border: 3px solid #52a2cb;
+    content: "";
+    height: 24px;
+    margin-left: 6px;
+    margin-top: -12px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 24px;
+}
+*/
+/* For top position  End*/
+
+/* For Left position */
+div.rightFlash:after{
+    font-size:1em;
+    border-style:solid;
+    border-width: 15px 0px 15px 15px;
+    border-color: transparent #52A2CB transparent #52A2CB;
+    position: absolute;
+    content: ' ';
+    top: 50%;
+    right: -18px;
+}
+/*div.rightFlash{
+    height: 33px;
+    top: 50%;
+    right: -18px;
+    margin-bottom: -20px;
+    overflow: hidden;
+    position: absolute;
+    width: 18px;
+}
+div.rightFlash:after{
+    background: none repeat scroll 0 0 #fff;
+    border: 3px solid #52a2cb;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 24px;
+    margin-left: -12px;
+    margin-top: 4px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 24px;
+}
+*/
+/* For Left position  End*/
+/* For Bottom position */
+div.topFlash:before{
+    font-size:1em;
+    border-style:solid;
+    border-width: 0px 15px 15px 15px;
+    border-color: #52A2CB transparent #52A2CB transparent;
+    position: absolute;
+    content: ' ';
+    top: -18px;
+    left: 44%;
+}
+/*div.topFlash{
+    top: 0;
+    height: 20px;
+    left: 50%;
+    margin-top: -20px;
+    overflow: hidden;
+    position: absolute;
+    width: 36px;
+}
+div.topFlash:after{
+    background: none repeat scroll 0 0 #fff;
+    border: 3px solid #52a2cb;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 24px;
+    margin-left: 6px;
+    margin-top: 8px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 24px;
+}*/
+/* For Bottom position  End*/
+/* For Left position */
+
+div.leftFlash:before{
+    font-size:1em;
+    border-style:solid;
+    border-width: 15px 15px 15px 0px;
+    border-color: transparent #52A2CB transparent #52A2CB;
+    position: absolute;
+    content: ' ';
+    top: 50%;
+    left: -18px;
+}
+/*div.leftFlash{
+    height: 33px;
+    top: 50%;
+    left: -18px;
+    overflow: hidden;
+    position: absolute;
+    width: 18px;
+}
+div.leftFlash:after{
+    background: none repeat scroll 0 0 #fff;
+    border: 3px solid #52a2cb;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 24px;
+    margin-left: 6px;
+    margin-top: 4px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 24px;
+}
+*/
+/* For Left position  End*/
+
+/* For Top Left position */
+
+div.bottomRightFlash:after{
+    font-size:1em;
+    border-style:solid;
+    border-width: 12px 25px 10px 25px;
+    border-color: #52a2cb #52a2cb transparent transparent;
+    position: absolute;
+    content: ' ';
+    bottom:-25px;
+    right:3%;
+}
+/*div.bottomRightFlash{
+    position: absolute;
+    padding: 15px;
+    margin: -53px 0px 0px;
+    color: #FFF;
+    right: 0px;
+}
+div.bottomRightFlash:before{
+    content: "";
+    position: absolute;
+    bottom: -36px;
+    left: -15px;
+    border-width: 0px 30px 20px 0px;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-style: solid;
+    border-color: transparent #52a2cb;
+    display: block;
+    width: 0px;
+}
+div.bottomRightFlash:after{
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 5px;
+    border-width: 0px 10px 20px 0px;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-style: solid;
+    border-color: transparent #FFF;
+    display: none;
+    width: 0px;
+}
+*/
+/* For Top Left position  End*/
+
+/* For Top Right position */
+
+div.bottomLeftFlash:after{
+    font-size:1em;
+    border-style:solid;
+    border-width: 12px 25px 10px 25px;
+    border-color: #52A2CB transparent transparent #52A2CB;
+    position: absolute;
+    content: ' ';
+    bottom:-25px;
+    left:3%;
+}
+/*div.bottomLeftFlash{
+    position: absolute;
+    padding: 15px;
+    margin: -40px 0px 0px;
+    color: #FFF;
+    left: 0px;
+}
+div.bottomLeftFlash:before{
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 15px;
+    border-width: 0px 0px 20px 30px;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-style: solid;
+    border-color: transparent #52a2cb;
+    display: block;
+    width: 0px;
+}
+*/
+/* For Top Left position  End*/
+
+/* For Bottom Left position */
+
+div.topRightFlash:before{
+    font-size:1em;
+    border-style:solid;
+    border-width: 0px 0px 25px 40px;
+    border-color: #52A2CB #52A2CB #52A2CB transparent;
+    position: absolute;
+    content: ' ';
+    top:-25px;
+    right:3%;
+}
+/*div.topRightFlash{
+    position: absolute;
+    padding: 15px;
+    margin: 0px;
+    color: #FFF;
+    right: 0px;
+    top: 0px;
+}
+div.topRightFlash:before{
+    content: "";
+    position: absolute;
+    top: -23px;
+    right: 15px;
+    border-width: 20px 30px 0px 0px;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-style: solid;
+    border-color: transparent #52a2cb;
+    display: block;
+    width: 0px;
+}
+*/
+/* For Bottom Left position  End*/
+
+/* For Bottom Right position */
+div.topLeftFlash:before{
+    font-size:1em;
+    border-style:solid;
+    border-width: 12px 25px 10px 25px;
+    border-color: transparent transparent #52A2CB #52A2CB;
+    position: absolute;
+    content: ' ';
+    top:-25px;
+    left:3%;
+}
+/*div.topLeftFlash{
+    position: absolute;
+    padding: 15px;
+    margin: -40px 0px 0px;
+    color: #FFF;
+    left: 0px;
+    top: 0px;
+}
+div.topLeftFlash:before{
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    right: -10px;
+    border-width: 20px 0px 0px 30px;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-style: solid;
+    border-color: transparent #52a2cb;
+    display: block;
+    width: 0px;
+}
+*/
+/* For Bottom Right position  End*/
+
+div.toolbarSmallNotif{
+    width: 100%;
+}
+/* Stick */
+
+.stick {
+    margin:5px;
+    padding:5px;
+    width:250px;
+}
+.exit {
+    background:url('/ico/exit.png') no-repeat;
+    width:16px;
+    height:16px;
+    float:right;
+    margin:0;
+    cursor:pointer;
+}
+.classic {
+    border:1px solid #A7CD10;
+    background-color:#E1FAB8;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+}
+.classic.error {
+    border:1px solid #E2365C;
+    background-color:#F7C8D2;
+}
+.opacity {
+    /*background:url('bg.png');*/
+    color:#F4F4F4;
+}
+.next {
+    background-color:#FEF6BF;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.last {
+    background-color:#CBECFA;
+    border:1px solid #15A6E3;
+}
+.click-ex {
+    width:50px;
+    height:20px;
+    border:1px solid #626262;
+    background:url('pointer.gif') no-repeat left center #7A7A7A;
+    color:#F4F4F4;
+    float:left;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    padding-left:25px;
+    padding-top:10px;
+    margin-right:10px;
+    cursor:pointer;
+}
+.ex pre {
+    width:80%;
+}
+/* Menu */
+
+.gn-menu > li > a >i {
+    border-right: solid 1px #F4F4F4;
+    padding: 23px;
+    margin-right: 10px;
+}
+.gn-menu > li > ul {
+    display:none;
+    margin-left: 60px;
+}
+.gn-menu > li > a .chevron,
+.gn-menu > li > ul > li > a .chevron,
+.gn-menu > li > ul > li > ul > li > a .chevron,
+.gn-menu > li > ul > li > ul > li > ul > li > a .chevron {
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 2px;
+    right: -5px;
+    height: 40px;
+    width: 40px;
+    padding: 12px 0px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    color: #b2b8bd !important;
+}
+.gn-menu > li > a .chevron.opened:after,
+.gn-menu > li > ul > li > a .chevron.opened:after,
+.gn-menu > li > ul > li > ul > li > a .chevron.opened:after,
+.gn-menu > li > ul > li > ul > li > ul > li > a .chevron.opened:after {
+    height: 100%;
+    width: 100%;
+    content: "\f078";
+    text-shadow: none;
+}
+.gn-menu > li > a .chevron.closed:after,
+.gn-menu > li > ul > li > a .chevron.closed:after,
+.gn-menu > li > ul > li > ul > li > a .chevron.closed:after,
+.gn-menu > li > ul > li > ul > li > ul > li > a .chevron.closed:after {
+    height: 100%;
+    width: 100%;
+    content: "\f053";
+    text-shadow: none;
+    color: #b2b8bd !important;
+}
+
+.gn-menu > li > ul > li {
+    background-color: #C6D0DA;
+}
+.gn-menu > li > ul > li > a {
+    color:#FFFFFF;
+    padding-left: 10px;
+}
+
+#mapsInfo{
+    margin:-60px 0px 0px 30px;
+}
+.imageCamera{
+    margin-bottom: 5px;
+}
+
+.cameranotification{
+    height: 44px !important;
+}
+.noPatientInfo{
+    height: 87% !important;
+}
